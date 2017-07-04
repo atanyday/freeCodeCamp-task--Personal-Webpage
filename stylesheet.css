@@ -1,0 +1,47 @@
+body {
+    font-family: 'Cabin Sketch', cursive;
+}
+#home {
+    background-image: url("http://i.imgur.com/8pNnkSL.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 790px;
+    width: auto;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.77);
+    border: none;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    font-size: 26px;
+    color: #6a829e;
+}
+.navbar-default .navbar-brand:hover {
+    color: #9cbbde;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #6a829e;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #9cbbde;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #9cbbde;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 340px;
+    color: #7d97b4;
+}
+.buttons {
+    margin-top: 30px;
+}
