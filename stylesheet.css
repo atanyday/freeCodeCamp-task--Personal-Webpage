@@ -39,9 +39,22 @@ body {
 h1 {
     font-size: 80px;
     text-align: center;
-    margin-top: 340px;
+    margin-top: 310px;
     color: #7d97b4;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.90);
 }
 .buttons {
     margin-top: 30px;
+    text-align: center;
+}
+.buttons button {
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.43);
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    color: #9cbbde;
+    font-family: 'Cabin Sketch', cursive;
+}
+.buttons button:hover {
+    background-color: #63788f;
+    color: #fff;
 }
