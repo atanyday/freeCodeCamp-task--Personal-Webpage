@@ -92,6 +92,19 @@ h2 {
 .portfolio-section .row {
     margin-bottom: 50px;
 }
+.portfolio-section p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+}
+.portfolio-section p a {
+    color: #596d84;
+    text-decoration: none;
+}
+.portfolio-section p a:hover {
+    color: #6e849d;
+}
 .portfolio-img {
     padding: 15px;
     background-color: rgba(81, 101, 124, 0.5);
@@ -107,8 +120,9 @@ h2 {
 }
 
 /* -------------------------------------------------------------------------------------------------------- copyright */
-.contacts {
-    color: #63788f;
+.contacts,
+.contacts ul li a{
+    color: #465a71;
 }
 .contacts ul {
     float: right;
@@ -117,9 +131,6 @@ h2 {
     display: inline-block;
     padding-right: 15px;
 }
-.contacts ul li a {
-    color: #63788f;
-}
 .contacts ul li a:hover {
-    color: #9cbbde;
+    color: #7d97b4;
 }
