@@ -1,5 +1,13 @@
 body {
     font-family: 'Cabin Sketch', cursive;
+    background-color: #000;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
 }
 #home {
     background-image: url("http://i.imgur.com/8pNnkSL.jpg");
@@ -30,12 +38,8 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
     color: #9cbbde;
 }
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: #9cbbde;
-    background-color: rgba(255, 255, 255, 0.15);
-}
+
+/* ------------------------------------------------------------------------------------------------------------- HOME */
 h1 {
     font-size: 80px;
     text-align: center;
@@ -51,10 +55,41 @@ h1 {
     margin-left: 10px;
     background-color: rgba(0, 0, 0, 0.43);
     border: 1px solid rgba(255, 255, 255, 0.50);
-    color: #9cbbde;
     font-family: 'Cabin Sketch', cursive;
 }
 .buttons button:hover {
     background-color: #63788f;
     color: #fff;
+}
+.buttons button:hover a {
+    color: #fff;
+}
+.buttons button:active:hover {
+    background-color: #63788f;
+}
+.buttons button a {
+    color: #9cbbde;
+}
+
+/* -------------------------------------------------------------------------------------------------------- PORTFOLIO */
+#portfolio {
+    background-color: #000;
+}
+h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #7d97b4;
+    margin-top: 50px;
+}
+.portfolio-section {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.portfolio-section .row {
+    margin-bottom: 50px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- copyright */
+.name {
+    color: #63788f;
 }
