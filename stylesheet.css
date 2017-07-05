@@ -8,6 +8,7 @@ a:hover,
 a:visited,
 a:active {
     text-decoration: none;
+    cursor: pointer;
 }
 #home {
     background-image: url("http://i.imgur.com/8pNnkSL.jpg");
@@ -56,10 +57,13 @@ h1 {
     background-color: rgba(0, 0, 0, 0.43);
     border: 1px solid rgba(255, 255, 255, 0.50);
     font-family: 'Cabin Sketch', cursive;
+    transition: all 1s ease;
 }
 .buttons button:hover {
     background-color: #63788f;
     color: #fff;
+    transition: all 0.5s ease;
+    transform: scale(1.15);
 }
 .buttons button:hover a {
     color: #fff;
@@ -88,8 +92,34 @@ h2 {
 .portfolio-section .row {
     margin-bottom: 50px;
 }
+.portfolio-img {
+    padding: 15px;
+    background-color: rgba(81, 101, 124, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+.portfolio-img:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.60);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}
 
 /* -------------------------------------------------------------------------------------------------------- copyright */
-.name {
+.contacts {
     color: #63788f;
+}
+.contacts ul {
+    float: right;
+}
+.contacts ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+.contacts ul li a {
+    color: #63788f;
+}
+.contacts ul li a:hover {
+    color: #9cbbde;
 }
